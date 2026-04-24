@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Come Bola</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="hud">
+      <div class="hud-item"><span>Fase</span><strong id="level">1/10</strong></div>
+      <div class="hud-item"><span>Pontuacao</span><strong id="score">0</strong></div>
+      <div class="hud-item"><span>Vidas</span><strong id="lives">3</strong></div>
+    </header>
+
+    <section class="stage-wrap">
+      <canvas id="game" width="672" height="672" aria-label="Jogo estilo pacman neon"></canvas>
+      <div class="overlay" id="overlay">
+        <h1>Come Bola</h1>
+        <p id="overlay-text">Use as setas do teclado para jogar.</p>
+        <button id="start-btn" type="button">Iniciar</button>
+      </div>
+    </section>
+
+    <footer class="legend">
+      <p>Setas: mover</p>
+      <p>Coma todos os pontos para avancar de fase</p>
+      <p>Pastilhas grandes ativam modo turbo temporario</p>
+    </footer>
+  </main>
+
+  <script src="./game.js"></script>
+</body>
+</html>
