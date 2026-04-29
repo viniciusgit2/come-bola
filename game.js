@@ -457,8 +457,8 @@ function drawPlayer() {
   ctx.arc(0, 0, p.radius, mouth, Math.PI * 2 - mouth);
   ctx.closePath();
 
-  ctx.fillStyle = "#ffd400";
-  ctx.shadowColor = "#ffd400";
+  ctx.fillStyle = "#ff2020";
+  ctx.shadowColor = "#ff2020";
   ctx.shadowBlur = 18;
   ctx.fill();
 
