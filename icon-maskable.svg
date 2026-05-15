@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Pega Ponto maskable">
+  <rect width="512" height="512" fill="#02050a"/>
+  <g transform="translate(44 44)">
+    <rect x="0" y="0" width="424" height="424" rx="44" fill="#0a1021"/>
+    <circle cx="178" cy="212" r="100" fill="#ffd400"/>
+    <polygon points="178,212 272,156 272,268" fill="#02050a"/>
+    <circle cx="308" cy="124" r="28" fill="#ff3d81"/>
+    <circle cx="344" cy="204" r="28" fill="#44f1ff"/>
+    <circle cx="308" cy="284" r="28" fill="#9dff4f"/>
+    <text x="334" y="378" font-size="88" font-family="Arial, sans-serif" text-anchor="middle" fill="#1ee6ff" font-weight="700">PP</text>
+  </g>
+</svg>
